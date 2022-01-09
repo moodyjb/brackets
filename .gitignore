@@ -3,3 +3,4 @@ runtime
 codeception.yml
 composer.lock
 web/assets
+.vscode/settings.json

@@ -147,6 +147,7 @@ class BracketsController extends \yii\web\Controller
     *   Nodes created from 1, 2, 4, 8 teams... going from chanpion back to all participants
     *   dummy change for tutorial
     */
+    // another dummay change
     public function actionCreate($bracket_id)
     {
         $config = Configuration::findOne(1);
