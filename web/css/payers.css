@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+	grid-gap: 10px;
+	background-color: #fff;
+	color: #444;
+}
+  .mobile, .street2, .first, .last   {
+    grid-column: span 2;
+  }   
+  .zfullName, .email,  .street, .zipPhrase {
+    grid-column: span 3;
+  }   
+  .email {
+    grid-column: span 4;
+  }
+

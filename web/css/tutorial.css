@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.tutorial_h3 {
+  color: Gray;
+  font-weight: bold;
+  text-shadow: 2px 2px gray;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: 100px 100px;
+}

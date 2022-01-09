@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+	grid-gap: 10px;
+	background-color: #fff;
+	color: #444;
+}
+
+.d1 {
+	display: inline-block;
+	width: 48%;
+	text-align: center;
+	padding-left:8px;
+}
+.d2 {
+	display: inline-block;
+	width: 48%;
+	text-align: center;
+	padding-right:8px;
+}
+
+.d1 div, .d2  div {
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+}
+
+
+h4 {
+	text-align: center;
+}
+
